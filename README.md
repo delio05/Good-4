@@ -9,22 +9,22 @@
 
   # playing phase
 
-  the player can choose which tile to flip over as long as they have enough power, with each tile they flip:
-    if tile == new type of tile:
-      introduction of basic ecological environment
-    if tile == story tile:
-      reveal the story
-    if special effect in tile：
-      apply the effect accordingly
-  power points--;
-  while points > 0:
-    ables player to flip, cultivate, apply strength, or end turn
-    point-- accordingly
-  current turn ended
-  points+=points addup
+  the player can choose which tile to flip over as long as they have enough power, with each tile they flip:<br />
+    if tile == new type of tile:<br />
+      introduction of basic ecological environment<br />
+    if tile == story tile:<br />
+      reveal the story<br />
+    if special effect in tile：<br />
+      apply the effect accordingly<br />
+  power points--;<br />
+  while points > 0:<br />
+    ables player to flip, cultivate, apply strength, or end turn<br />
+    point-- accordingly<br />
+  current turn ended<br />
+  points+=points addup<br />
 
-  # ending phase
-  unflipped tile==0:
-    reveal the whole story
+  # ending phase<br />
+  unflipped tile==0:<br />
+    reveal the whole story<br />
     Congradulation!
     
