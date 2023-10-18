@@ -1,0 +1,34 @@
+function init(self)
+
+	msg.post(".", "acquire_input_focus")
+	
+end
+
+function on_input(self, action_id, action)
+	local object_width = 50 -- Replace with the actual width of your game object
+	local object_height = 50
+	local object_x = go.get_position().x+640-object_width/2
+	local object_y = go.get_position().y+360-object_height/2
+	self.turn=go.get("/player-island#main", "turn_counter")
+	local mouse_x = action.x
+	local mouse_y = action.y
+	if action_id == hash("click") and action.released then
+		-- print("objecy：")
+		-- print(go.get_position().x,go.get_position().y)
+		-- print("mouse：")
+		-- print(mouse_x,mouse_y)
+		-- print("objnew")
+		-- print(object_x,object_y)
+		self.turn=self.turn+1
+		if mouse_x >= object_x and mouse_x <= object_x + object_width
+		and mouse_y >= object_y and mouse_y <= object_y + object_height then
+			if self.turn~=go.get("/player-island#main", "turn_counter") then
+				local bp=go.get("/player-island#main", "bp")
+				bp=bp+(5+self.turn-1)+go.get("/player-island#main", "cultivate")
+				go.set("/player-island#main", "bp",bp)
+				go.set("/player-island#main", "turn_counter",self.turn)
+				print(bp)
+			end
+		end
+	end
+end
