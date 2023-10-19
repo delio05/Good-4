@@ -1,7 +1,10 @@
-# logic about the game skeleton
+# Welcome to Our Sea Moster Game!
+With our game prototype published, we are happy to invite you to play and test our game!
+
+# Logic about the game skeleton
   # Starting up phase:
   
-  player will be convey the basic story background, which will imply their identity in the game as the God of sea, and their goal is to filp over the whole island.
+  the player will convey the basic story background, which will imply their identity in the game as the God of sea, and their goal is to filp over the whole island.
 
   # map set up
 
