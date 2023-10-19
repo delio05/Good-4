@@ -11,8 +11,8 @@ background_color {
 }
 nodes {
   position {
-    x: 152.0
-    y: 641.0
+    x: 573.0
+    y: 87.0
     z: 0.0
     w: 1.0
   }
@@ -23,9 +23,9 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 1.0
-    y: 1.0
-    z: 1.0
+    x: 0.407704
+    y: 0.407704
+    z: 0.407704
     w: 1.0
   }
   size {
@@ -42,9 +42,9 @@ nodes {
   }
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
-  text: "5"
+  text: ""
   font: "mainmenu"
-  id: "score"
+  id: "warning"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER

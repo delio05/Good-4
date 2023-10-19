@@ -24,20 +24,26 @@ function on_input(self, action_id, action)
 		-- print(object_x+ object_width,object_y+ object_width)
 		if mouse_x >= object_x and mouse_x <= object_x + object_width
 		and mouse_y >= object_y and mouse_y <= object_y + object_height then
+			if bp<3 then
+				msg.post("/warning#BP", "weak")
+			end
 			if bp>=3 then
 				if self.curAnim~="REVEAL" and self.curAnim~="CULTIVATE" then
 
 					self.curAnim="REVEAL"
 					go.set("/player-island#main", "bp",bp-3)
+					go.set("/player-island#main", "flipped",go.get("/player-island#main", "flipped")+1)
 					msg.post("#sprite","play_animation", {id=hash("REVEAL")})
 					msg.post("/score#score", "update_score", { score =  bp-3})
+					msg.post("/warning#BP", "update_cultivate")
+					if go.get("/player-island#main", "flipped")==27 then
+						msg.post("/warning#BP", "finish")
+					end
 				elseif self.curAnim=="CULTIVATE" then
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				else	
 					msg.post("#sprite","play_animation", {id=hash("UNCHANGE")})
 				end
-				-- else
-				-- 	print("nooooo")
 			end
 		end
 	end

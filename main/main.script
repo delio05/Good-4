@@ -1,12 +1,14 @@
 go.property("bp", 5)
 go.property("cultivate", 0)
 go.property("turn_counter", 1)
+go.property("flipped", 0)
 function init(self)
 	--self.bp=5
 	-- self.bp=require("constant")
 	-- print(self.bp)
 	-- print(go.get(hash("bp")))
 	collectionfactory.create("/player-island#collectionfactory")
+	msg.post("/score#score", "update_score", { score =  5})
 end
 
 function on_message(self, message_id, message, sender)

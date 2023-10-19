@@ -27,15 +27,20 @@ function on_input(self, action_id, action)
 					self.curAnim="REVEAL2"
 					bp=bp-5
 					go.set("/player-island#main", "bp",bp)
+					go.set("/player-island#main", "flipped",go.get("/player-island#main", "flipped")+1)
 					msg.post("#sprite","play_animation", {id=hash("REVEAL2")})
 					msg.post("/score#score", "update_score", { score =  bp})
+					msg.post("/warning#BP", "update_cultivate")
+					if go.get("/player-island#main", "flipped")==27 then
+						msg.post("/warning#BP", "finish")
+					end
 				elseif self.curAnim=="CULTIVATE" then
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				else	
 					msg.post("#sprite","play_animation", {id=hash("UNCHANGE2")})
 				end
-				-- else
-				-- 	print("nooooo")
+			else
+				msg.post("/warning#BP", "weak")
 			end
 		end
 	end

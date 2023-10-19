@@ -5,6 +5,9 @@ function on_message(self, message_id, message, sender)
 		if score_node then
 			-- Update the text of the "score" node
 			gui.set_text(score_node, "Currrent BP: " .. message.score)
+			if message.score==0 then
+				msg.post("/warning#BP", "update_warning")
+			end
 		else
 			print("Node 'score' not found in the GUI component.")
 		end

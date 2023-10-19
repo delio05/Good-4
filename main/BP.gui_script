@@ -1,18 +1,62 @@
 function init(self)
-	self.score_node = gui.get_node("score")
+
+	self.score_node=gui.get_node("warning")
 end
 
-local function scale_down(self, node)
-	local s = 1.0
-	gui.animate(node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.05)
+local function clearText(self,node)
+	gui.set_text(self.score_node, "")
 end
 
-function on_message(self, message_id, message, sender)
-	if message_id == hash("gui_message_id") then
-		local s = 1.2
-		local score = message.value
-		print(score)
-		gui.set_text(self.score_node, tostring(score))
-		gui.animate(self.score_node, gui.PROP_SCALE, vmath.vector4(s, s, s, 0), gui.EASING_OUT, 0.1, 0.0, scale_down)
+-- Delay in seconds (1 second)
+
+
+function on_message(self, message_id, sender)
+	if message_id == hash("update_warning") then
+		-- set the score counter to new score
+		-- local score_node = gui.get_node("warning")
+		if self.score_node then
+			-- Update the text of the "score" node
+			gui.set_text(self.score_node, "No enough BP，next turn ")
+			local delay = 1
+
+			-- Set the timer to clear the text after the delay
+			timer.delay(delay, false, clearText)
+		end
+	end
+	if message_id == hash("update_cultivate") then
+		-- set the score counter to new score
+		-- local score_node = gui.get_node("warning")
+		if self.score_node then
+			-- Update the text of the "score" node
+			gui.set_text(self.score_node, "right click to cultivate ")
+			local delay = 1
+
+			-- Set the timer to clear the text after the delay
+			timer.delay(delay, false, clearText)
+		end
+	end
+	if message_id == hash("weak") then
+		-- set the score counter to new score
+		-- local score_node = gui.get_node("warning")
+		if self.score_node then
+			-- Update the text of the "score" node
+			gui.set_text(self.score_node, "BP not enough!")
+			local delay = 1
+
+			-- Set the timer to clear the text after the delay
+			timer.delay(delay, false, clearText)
+		end
+	end
+	if message_id == hash("finish") then
+		-- set the score counter to new score
+		-- local score_node = gui.get_node("warning")
+		if self.score_node then
+			-- Update the text of the "score" node
+			gui.set_text(self.score_node, "CONGRADULATION!")
+			local delay = 1
+
+			-- Set the timer to clear the text after the delay
+			timer.delay(delay, false, clearText)
+		end
 	end
 end
