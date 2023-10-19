@@ -1,0 +1,12 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash("update_score") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("score")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, "Currrent BP: " .. message.score)
+		else
+			print("Node 'score' not found in the GUI component.")
+		end
+	end
+end

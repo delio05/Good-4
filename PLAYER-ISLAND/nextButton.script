@@ -26,6 +26,7 @@ function on_input(self, action_id, action)
 				local bp=go.get("/player-island#main", "bp")
 				bp=bp+(5+self.turn-1)+go.get("/player-island#main", "cultivate")
 				go.set("/player-island#main", "bp",bp)
+				msg.post("/score#score", "update_score", { score =  bp})
 				go.set("/player-island#main", "turn_counter",self.turn)
 				print(bp)
 			end

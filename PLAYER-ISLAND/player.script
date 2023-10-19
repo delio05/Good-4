@@ -30,6 +30,7 @@ function on_input(self, action_id, action)
 					self.curAnim="REVEAL"
 					go.set("/player-island#main", "bp",bp-3)
 					msg.post("#sprite","play_animation", {id=hash("REVEAL")})
+					msg.post("/score#score", "update_score", { score =  bp-3})
 				elseif self.curAnim=="CULTIVATE" then
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				else	
@@ -39,7 +40,6 @@ function on_input(self, action_id, action)
 				-- 	print("nooooo")
 			end
 		end
-		print(bp)
 	end
 	
 	if action_id == hash("cultivate") and self.curAnim=="REVEAL" then
@@ -52,10 +52,12 @@ function on_input(self, action_id, action)
 			if bp>=2 then
 				if self.curAnim~="CULTIVATE" then
 					self.curAnim="CULTIVATE"
-					go.set("/player-island#main", "bp",bp-2)
+					bp=bp-2
+					go.set("/player-island#main", "bp",bp)
 					cultivate=go.get("/player-island#main", "cultivate")+1
 					go.set("/player-island#main", "cultivate",cultivate)
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
+					msg.post("/score#score", "update_score", { score =  bp})
 				else
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				end
