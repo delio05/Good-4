@@ -1,33 +1,46 @@
-# Welcome to Our Sea Moster Game!
-With our game prototype published, we are happy to invite you to play and test our game!
+# Welcome to Sunken!
 
-# Logic about the game skeleton
-  # Starting up phase:
-  
-  the player will convey the basic story background, which will imply their identity in the game as the God of sea, and their goal is to filp over the whole island.
+We're excited to invite you to play this game presented by the Good-4!
 
-  # map set up
+## Game Logic Overview:
 
-  the island is made with multiple triangles, and back side up, the player can see no more than what type of the individual tile is and the power cost to filp them
+### Starting Phase:
 
-  # playing phase
+The player will set the stage by narrating the basic story background, establishing their role as the God of the sea. Their ultimate goal is to flip over the entire island.
 
-  the player can choose which tile to flip over as long as they have enough power, with each tile they flip:<br />
-    if tile == new type of tile:<br />
-      introduction of basic ecological environment<br />
-    if tile == story tile:<br />
-      reveal the story<br />
-    if special effect in tile：<br />
-      apply the effect accordingly<br />
-  power points--;<br />
-  while points > 0:<br />
-    ables player to flip, cultivate, apply strength, or end turn<br />
-    point-- accordingly<br />
-  current turn ended<br />
-  points+=points addup<br />
+### Map Setup:
 
-  # ending phase<br />
-  unflipped tile==0:<br />
-    reveal the whole story<br />
-    Congradulation!
-    
+The island consists of multiple triangles, initially facing downward. The player can only see the type of each tile and the power cost required to flip them.
+
+### Playing Phase:
+
+The player can choose a tile to flip, provided they have enough power. Each flipped tile triggers different outcomes:
+
+```python
+if tile == new type of tile:
+    # Introduction of basic ecological environment
+elif tile == story tile:
+    # Reveal the story
+elif special effect in tile:
+    # Apply the effect accordingly
+```
+
+Power points decrease with each action. As long as points are positive, the player can continue flipping, cultivating, applying strength, or ending their turn.
+
+```python
+while points > 0:
+    # Player actions: flip, cultivate, apply strength, or end turn
+    # Adjust points accordingly
+```
+
+The current turn ends, and points accumulate.
+
+### Ending Phase:
+
+If all tiles are flipped:
+
+```python
+if unflipped tile == 0:
+    # Reveal the whole story
+    # Congratulations!
+```
