@@ -1,59 +1,29 @@
---local canReveal=false
---local bpVal=5
-
 function init(self)
-	
+
 	msg.post(".", "acquire_input_focus")
-	self.curAnim="UNREVEAL"
-	msg.post("#sprite", "play_animation",{id=hash("UNREVEAL")})
+	self.curAnim="UNREVEAL2P"
+	msg.post("#sprite", "play_animation",{id=hash("UNREVEAL2P")})
 	self.flip=0
-	self.str=go.get("/player-island#main", "beach")
+	self.str=go.get("/player-island#main", "forest1")
 	--msg.post("#sprite1", "play_animation",{id=hash("UNREVEAL2")})
-	local data_to_send = {
-		x = go.get_position().x,
-		y = go.get_position().y
-	}
-	msg.post("/player-island#main", "updateDict",data_to_send)
-	local pol=0
 end
 
 function on_message(self, message_id, message, sender)
 	if message_id == hash("flip") then
 		self.flip=message.flip
-	end
-	if message_id == hash("polluted") then
-		if self.curAnim=="UNREVEAL" then
-			pol=1
-			self.curAnim="UNREVEALP"
-			msg.post("#sprite", "play_animation",{id=hash("UNREVEALP")})
-			-- print(self.curAnim)
-		end
-	end
-	if message_id == hash("unpolluted") then
-		if self.curAnim=="UNREVEALP" then
-			pol=0
-			self.curAnim="UNREVEAL"
-			msg.post("#sprite", "play_animation",{id=hash("UNREVEAL")})
-			self.str=go.get("/player-island#main", "beach")
-			-- print(self.curAnim)
-		end
+		print("NUMBER"..self.flip)
 	end
 end
 
 function on_input(self, action_id, action)
-	
 	local bp=go.get("/player-island#main", "bp")
 	-- print(bp)
-	local object_width = 70 -- Replace with the actual width of your game object
-	local object_height = 70
+	local object_width = 50 -- Replace with the actual width of your game object
+	local object_height = 50
 	local object_x = go.get_position().x+640-object_width/2
 	local object_y = go.get_position().y+360-object_height/2
-	if pol==1 then
-		self.str=go.get("/player-island#main", "beach")+go.get("/player-island#main", "turn_counter")-3
-		msg.post("/player-island#main", "pollutionB", {str=self.str})
-	end
-	
-if action_id == hash("click") then
+
+	if action_id == hash("click") then
 		local mouse_x = action.x
 		local mouse_y = action.y
 		if mouse_x >= object_x and mouse_x <= object_x + object_width
@@ -62,39 +32,43 @@ if action_id == hash("click") then
 				x = go.get_position().x,
 				y = go.get_position().y
 			}
+			self.str=go.get("/player-island#main", "forest1")
 			msg.post("/player-island#main", "flip_player",message)
 			-- self.flip=go.get("/player-island#main", "flip")
 			if self.flip==0 then
 				msg.post("/warning#BP", "adj")
 			end
-			
+			if bp<self.str then
+				msg.post("/warning#BP", "weak")
+			end
 			if bp>=self.str and self.flip==1 then
-				if self.curAnim~="REVEAL" and self.curAnim~="CULTIVATE" then
-
-					self.curAnim="REVEAL"
-					go.set("/player-island#main", "bp",bp-self.str)
-					go.set("/player-island#main", "flipped",go.get("/player-island#main", "flipped")+1)
-
-					msg.post("/player-island#main", "add", message)
+				if self.curAnim~="REVEAL2" and self.curAnim~="CULTIVATE" then
 					
-					msg.post("#sprite","play_animation", {id=hash("REVEAL")})
-					msg.post("/score#score", "update_score", { score =  bp-self.str})
+					self.curAnim="REVEAL2"
+					bp=bp-self.str
+					go.set("/player-island#main", "bp",bp)
+					go.set("/player-island#main", "flipped",go.get("/player-island#main", "flipped")+1)
+					msg.post("/player-island#main", "add", message)
+					msg.post("#sprite","play_animation", {id=hash("REVEAL2")})
+					msg.post("/score#score", "update_score", { score =  bp})
 					msg.post("/warning#BP", "update_cultivate")
 					if go.get("/player-island#main", "flipped")==38 then
-						-- msg.post("/warning#BP", "finish")
 						msg.post("/player-island#main", "win")
 					end
 				elseif self.curAnim=="CULTIVATE" then
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				else	
-					msg.post("#sprite","play_animation", {id=hash("UNCHANGE")})
+					msg.post("#sprite","play_animation", {id=hash("UNCHANGE2")})
 					msg.post("/warning#BP", "update_cultivate")
 				end
+				
+			else
+				msg.post("/warning#BP", "weak")
 			end
 		end
 	end
-	
-	if action_id == hash("cultivate") and self.curAnim=="REVEAL" then
+
+	if action_id == hash("cultivate") and self.curAnim=="REVEAL2" then
 		local mouse_x = action.x
 		local mouse_y = action.y
 		-- print(mouse_x,mouse_y)

@@ -16,8 +16,8 @@ function on_message(self, message_id, sender)
 		-- local score_node = gui.get_node("warning")
 		if self.score_node then
 			-- Update the text of the "score" node
-			gui.set_text(self.score_node, "No enough BP，next turn ")
-			local delay = 1
+			gui.set_text(self.score_node, "No enough Strength，next turn ")
+			local delay = 3
 
 			-- Set the timer to clear the text after the delay
 			timer.delay(delay, false, clearText)
@@ -29,7 +29,7 @@ function on_message(self, message_id, sender)
 		if self.score_node then
 			-- Update the text of the "score" node
 			gui.set_text(self.score_node, "right click to cultivate ")
-			local delay = 1
+			local delay = 3
 
 			-- Set the timer to clear the text after the delay
 			timer.delay(delay, false, clearText)
@@ -40,8 +40,10 @@ function on_message(self, message_id, sender)
 		-- local score_node = gui.get_node("warning")
 		if self.score_node then
 			-- Update the text of the "score" node
-			gui.set_text(self.score_node, "BP not enough!")
-			local delay = 1
+			print(message.str)
+			gui.set_text(self.score_node, "Strength not enough! ", message.str, " Needed!")
+			-- gui.set_text(self.score_node, "")
+			local delay = 3
 
 			-- Set the timer to clear the text after the delay
 			timer.delay(delay, false, clearText)
@@ -53,10 +55,17 @@ function on_message(self, message_id, sender)
 		if self.score_node then
 			-- Update the text of the "score" node
 			gui.set_text(self.score_node, "CONGRADULATION!")
-			local delay = 1
-
-			-- Set the timer to clear the text after the delay
-			timer.delay(delay, false, clearText)
 		end
+	end
+
+	if message_id == hash("adj") then
+		gui.set_text(self.score_node, "you can only flip ADJCENT territory!")
+	end
+	if message_id == hash("cheat") then
+		gui.set_text(self.score_node, "Don't cheat!")
+		local delay = 3
+
+		-- Set the timer to clear the text after the delay
+		timer.delay(delay, false, clearText)
 	end
 end

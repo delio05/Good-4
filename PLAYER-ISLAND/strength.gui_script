@@ -1,0 +1,66 @@
+function on_message(self, message_id, message, sender)
+	if message_id == hash("beach_strength") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("beach_strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("sand_strength") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("sand_strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("sand1_strength") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("sand_strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("forest_strength") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("beach_strength1") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("beach_strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("forest_strength1") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	if message_id == hash("factory_strength") then
+		-- set the score counter to new score
+		local score_node = gui.get_node("strength")
+		if score_node then
+			-- Update the text of the "score" node
+			gui.set_text(score_node, ":" .. message.str)
+		end
+	end
+
+	
+end

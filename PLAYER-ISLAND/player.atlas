@@ -1,11 +1,11 @@
 animations {
   id: "REVEAL"
   images {
-    image: "/assets/Retina/hexagonTile@2_06.png"
+    image: "/assets/josie/housetile.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_10.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_ONCE_FORWARD
@@ -16,11 +16,11 @@ animations {
 animations {
   id: "UNREVEAL"
   images {
-    image: "/assets/Retina/hexagonTile@2_06.png"
+    image: "/assets/josie/housetile.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_06.png"
+    image: "/assets/josie/housetile.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
@@ -31,11 +31,11 @@ animations {
 animations {
   id: "UNCHANGE"
   images {
-    image: "/assets/Retina/hexagonTile@2_10.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_10.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
@@ -46,11 +46,11 @@ animations {
 animations {
   id: "REVEAL2"
   images {
-    image: "/assets/Retina/hexagonTile@2_01.png"
+    image: "/assets/josie/cityhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_09.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_ONCE_FORWARD
@@ -61,11 +61,11 @@ animations {
 animations {
   id: "UNREVEAL2"
   images {
-    image: "/assets/Retina/hexagonTile@2_01.png"
+    image: "/assets/josie/cityhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_01.png"
+    image: "/assets/josie/cityhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
@@ -76,11 +76,11 @@ animations {
 animations {
   id: "UNCHANGE2"
   images {
-    image: "/assets/Retina/hexagonTile@2_09.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_09.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
@@ -91,11 +91,11 @@ animations {
 animations {
   id: "CULTIVATE"
   images {
-    image: "/assets/Retina/hexagonTile@2_12.png"
+    image: "/assets/josie/sunkenhexfishupdate.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_12.png"
+    image: "/assets/josie/sunkenhexfishupdate.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_ONCE_FORWARD
@@ -106,11 +106,11 @@ animations {
 animations {
   id: "REVEAL3"
   images {
-    image: "/assets/Retina/hexagonTile@2_04.png"
+    image: "/assets/josie/factory.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_11.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_ONCE_FORWARD
@@ -121,11 +121,11 @@ animations {
 animations {
   id: "UNREVEAL3"
   images {
-    image: "/assets/Retina/hexagonTile@2_04.png"
+    image: "/assets/josie/factory.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_04.png"
+    image: "/assets/josie/factory.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD
@@ -136,11 +136,101 @@ animations {
 animations {
   id: "UNCHANGE3"
   images {
-    image: "/assets/Retina/hexagonTile@2_11.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   images {
-    image: "/assets/Retina/hexagonTile@2_11.png"
+    image: "/assets/josie/sunkenunderwaterhex.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "UNREVEAL2P"
+  images {
+    image: "/assets/josie/pollutedT.jpg"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/pollutedT.jpg"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "UNREVEALP"
+  images {
+    image: "/assets/josie/pollutedF.jpg"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/pollutedF.jpg"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "REVEAL0"
+  images {
+    image: "/assets/josie/sandtile.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/sunkenunderwaterhex.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 1
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "UNREVEAL0"
+  images {
+    image: "/assets/josie/sandtile.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/sandtile.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "UNCHANGE0"
+  images {
+    image: "/assets/josie/sunkenunderwaterhex.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/sunkenunderwaterhex.png"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "UNREVEAL3P"
+  images {
+    image: "/assets/josie/pollutedB.jpg"
+    sprite_trim_mode: SPRITE_TRIM_MODE_OFF
+  }
+  images {
+    image: "/assets/josie/pollutedB.jpg"
     sprite_trim_mode: SPRITE_TRIM_MODE_OFF
   }
   playback: PLAYBACK_LOOP_FORWARD

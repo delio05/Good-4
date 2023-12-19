@@ -1,258 +1,10 @@
 name: "player"
 scale_along_z: 0
 embedded_instances {
-  id: "beach1"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 236.0
-    y: -34.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach2"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 38.0
-    y: 49.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach3"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 187.0
-    y: -37.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach4"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 187.0
-    y: -123.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
   id: "beach5"
   data: "components {\n"
   "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -271,7 +23,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -294,8 +46,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 136.0
-    y: 50.0
+    x: -133.0
+    y: 161.0
     z: 0.0
   }
   rotation {
@@ -305,257 +57,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach6"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 88.0
-    y: -39.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach7"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 211.0
-    y: 8.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach8"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 15.0
-    y: 5.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "beach9"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/player.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 39.0
-    y: -38.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
   }
 }
 embedded_instances {
@@ -621,31 +125,17 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "forest01"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
+  id: "ocean"
+  data: "embedded_components {\n"
+  "  id: \"sound\"\n"
+  "  type: \"sound\"\n"
+  "  data: \"sound: \\\"/assets/sound/ocean.wav\\\"\\n"
+  "looping: 1\\n"
+  "group: \\\"master\\\"\\n"
+  "gain: 1.0\\n"
+  "pan: 0.0\\n"
+  "speed: 1.0\\n"
+  "loopcount: 30\\n"
   "\"\n"
   "  position {\n"
   "    x: 0.0\n"
@@ -658,16 +148,11 @@ embedded_instances {
   "    z: 0.0\n"
   "    w: 1.0\n"
   "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
   "}\n"
   ""
   position {
-    x: 137.0
-    y: -37.0
+    x: 139.0
+    y: 0.0
     z: 0.0
   }
   rotation {
@@ -677,16 +162,16 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 1.0
+    y: 1.0
+    z: 1.0
   }
 }
 embedded_instances {
-  id: "forest1"
+  id: "forest8"
   data: "components {\n"
   "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  component: \"/PLAYER-ISLAND/town.script\"\n"
   "  position {\n"
   "    x: 0.0\n"
   "    y: 0.0\n"
@@ -705,7 +190,7 @@ embedded_instances {
   "  id: \"sprite\"\n"
   "  type: \"sprite\"\n"
   "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "default_animation: \\\"UNREVEAL3\\\"\\n"
   "material: \\\"/builtins/materials/sprite.material\\\"\\n"
   "blend_mode: BLEND_MODE_ALPHA\\n"
   "\"\n"
@@ -721,15 +206,15 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
+  "    x: 2.603403\n"
+  "    y: 2.603403\n"
+  "    z: 2.603403\n"
   "  }\n"
   "}\n"
   ""
   position {
-    x: 112.0
-    y: 94.0
+    x: -134.0
+    y: 53.0
     z: 0.0
   }
   rotation {
@@ -739,195 +224,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest2"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 162.0
-    y: 7.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 186.0
-    y: 51.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest3"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 87.0
-    y: 50.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 0.563098
+    y: 0.563098
+    z: 0.563098
   }
 }
 embedded_instances {
@@ -976,8 +275,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 64.0
-    y: 5.0
+    x: -100.0
+    y: -2.0
     z: 0.0
   }
   rotation {
@@ -987,13 +286,385 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
   }
 }
 embedded_instances {
-  id: "beach"
+  id: "forest1"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -99.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "beach1"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -32.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach2"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 35.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest2"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1.0
+    y: 53.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "forest3"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -100.0
+    y: -110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "beach4"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -66.0
+    y: 53.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach6"
   data: "components {\n"
   "  id: \"player\"\n"
   "  component: \"/PLAYER-ISLAND/player.script\"\n"
@@ -1039,7 +710,7 @@ embedded_instances {
   ""
   position {
     x: 138.0
-    y: -124.0
+    y: 53.0
     z: 0.0
   }
   rotation {
@@ -1049,9 +720,319 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest6"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/town.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 2.603403\n"
+  "    y: 2.603403\n"
+  "    z: 2.603403\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 102.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.563098
+    y: 0.563098
+    z: 0.563098
+  }
+}
+embedded_instances {
+  id: "beach8"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -32.0
+    y: -2.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest10"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 35.0
+    y: -2.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "beach9"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 70.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest11"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 103.0
+    y: -2.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
   }
 }
 embedded_instances {
@@ -1100,8 +1081,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 89.0
-    y: -125.0
+    x: 172.0
+    y: -2.0
     z: 0.0
   }
   rotation {
@@ -1111,9 +1092,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
   }
 }
 embedded_instances {
@@ -1162,8 +1143,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 113.0
-    y: -81.0
+    x: 138.0
+    y: -56.0
     z: 0.0
   }
   rotation {
@@ -1173,443 +1154,9 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest5"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 39.0
-    y: -126.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest6"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 162.0
-    y: -80.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest7"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL2\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: -11.0
-    y: -38.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest8"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/town.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL3\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 62.0
-    y: 93.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest9"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/town.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL3\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 63.0
-    y: -82.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest10"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/town.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL3\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 213.0
-    y: -81.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
-  }
-}
-embedded_instances {
-  id: "forest11"
-  data: "components {\n"
-  "  id: \"player\"\n"
-  "  component: \"/PLAYER-ISLAND/town.script\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  property_decls {\n"
-  "  }\n"
-  "}\n"
-  "embedded_components {\n"
-  "  id: \"sprite\"\n"
-  "  type: \"sprite\"\n"
-  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
-  "default_animation: \\\"UNREVEAL3\\\"\\n"
-  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
-  "blend_mode: BLEND_MODE_ALPHA\\n"
-  "\"\n"
-  "  position {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "  }\n"
-  "  rotation {\n"
-  "    x: 0.0\n"
-  "    y: 0.0\n"
-  "    z: 0.0\n"
-  "    w: 1.0\n"
-  "  }\n"
-  "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
-  "  }\n"
-  "}\n"
-  ""
-  position {
-    x: 161.0
-    y: 93.0
-    z: 0.0
-  }
-  rotation {
-    x: 0.0
-    y: 0.0
-    z: 0.0
-    w: 1.0
-  }
-  scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
   }
 }
 embedded_instances {
@@ -1658,8 +1205,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 14.0
-    y: -82.0
+    x: -31.0
+    y: -110.0
     z: 0.0
   }
   rotation {
@@ -1669,13 +1216,75 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
   }
 }
 embedded_instances {
   id: "forest12"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 36.0
+    y: -110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "forest13"
   data: "components {\n"
   "  id: \"player\"\n"
   "  component: \"/PLAYER-ISLAND/town.script\"\n"
@@ -1713,15 +1322,15 @@ embedded_instances {
   "    w: 1.0\n"
   "  }\n"
   "  scale {\n"
-  "    x: 0.495622\n"
-  "    y: 0.495622\n"
-  "    z: 0.495622\n"
+  "    x: 2.603403\n"
+  "    y: 2.603403\n"
+  "    z: 2.603403\n"
   "  }\n"
   "}\n"
   ""
   position {
-    x: 111.0
-    y: 7.0
+    x: 2.0
+    y: -56.0
     z: 0.0
   }
   rotation {
@@ -1731,8 +1340,1558 @@ embedded_instances {
     w: 1.0
   }
   scale3 {
-    x: 0.416
-    y: 0.416
-    z: 0.416
+    x: 0.563098
+    y: 0.563098
+    z: 0.563098
+  }
+}
+embedded_instances {
+  id: "beach13"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -134.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest14"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -67.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "beach14"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -169.0
+    y: -1.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "forest22"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/town.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 2.603403\n"
+  "    y: 2.603403\n"
+  "    z: 2.603403\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -168.0
+    y: -110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.563098
+    y: 0.563098
+    z: 0.563098
+  }
+}
+embedded_instances {
+  id: "forest24"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/forest.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL2\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 104.0
+    y: -110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.944956
+    y: 2.944956
+    z: 2.944956
+  }
+}
+embedded_instances {
+  id: "forest25"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/town.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL3\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 2.603403\n"
+  "    y: 2.603403\n"
+  "    z: 2.603403\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 173.0
+    y: -110.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 0.563098
+    y: 0.563098
+    z: 0.563098
+  }
+}
+embedded_instances {
+  id: "beach22"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/player.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 70.0
+    y: 52.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -66.0
+    y: 161.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach7"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 68.0
+    y: 161.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach15"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1.0
+    y: 161.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach23"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 136.0
+    y: 161.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach16"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -66.0
+    y: -164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach17"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -133.0
+    y: -164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach18"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 68.0
+    y: -164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach24"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 1.0
+    y: -164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach25"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 136.0
+    y: -164.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach3"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -167.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach19"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -235.0
+    y: -1.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach26"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -202.0
+    y: 53.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach27"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 206.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach28"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 239.0
+    y: -2.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach29"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 205.0
+    y: 53.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach30"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 171.0
+    y: 107.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach31"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -202.0
+    y: -56.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
+  }
+}
+embedded_instances {
+  id: "beach32"
+  data: "components {\n"
+  "  id: \"player\"\n"
+  "  component: \"/PLAYER-ISLAND/sand.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  property_decls {\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/PLAYER-ISLAND/player.atlas\\\"\\n"
+  "default_animation: \\\"UNREVEAL0\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "  scale {\n"
+  "    x: 0.495622\n"
+  "    y: 0.495622\n"
+  "    z: 0.495622\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: -300.0
+    y: -1.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: -1.0
+    w: 6.123234E-17
+  }
+  scale3 {
+    x: 2.938025
+    y: 2.938025
+    z: 2.938025
   }
 }

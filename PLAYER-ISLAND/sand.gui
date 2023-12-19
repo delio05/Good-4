@@ -1,6 +1,6 @@
-script: "/PLAYER-ISLAND/score.gui_script"
+script: "/PLAYER-ISLAND/strength.gui_script"
 fonts {
-  name: "mainmenu"
+  name: "system_font"
   font: "/assets/mainmnue/mainmenu.font"
 }
 background_color {
@@ -11,8 +11,8 @@ background_color {
 }
 nodes {
   position {
-    x: 344.0
-    y: 645.0
+    x: 1230.0
+    y: 677.0
     z: 0.0
     w: 1.0
   }
@@ -23,9 +23,9 @@ nodes {
     w: 1.0
   }
   scale {
-    x: 0.78
-    y: 0.78
-    z: 0.78
+    x: 0.5
+    y: 0.5
+    z: 0.5
     w: 1.0
   }
   size {
@@ -43,8 +43,8 @@ nodes {
   type: TYPE_TEXT
   blend_mode: BLEND_MODE_ALPHA
   text: ""
-  font: "mainmenu"
-  id: "score"
+  font: "system_font"
+  id: "sand_strength"
   xanchor: XANCHOR_NONE
   yanchor: YANCHOR_NONE
   pivot: PIVOT_CENTER

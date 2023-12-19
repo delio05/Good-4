@@ -4,14 +4,34 @@ function init(self)
 	msg.post(".", "acquire_input_focus")
 	self.curAnim="UNREVEAL3"
 	msg.post("#sprite", "play_animation",{id=hash("UNREVEAL3")})
+	self.flip=0
 	--msg.post("#sprite1", "play_animation",{id=hash("UNREVEAL2")})
+	local data_to_send = {
+		x = go.get_position().x,
+		y = go.get_position().y
+	}
+	msg.post("/player-island#main", "town",data_to_send)
+	msg.post("/player-island#main", "updateDict",data_to_send)
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("flip") then
+		self.flip=message.flip
+	end
+	-- if message_id == hash("pollutionStart") then
+	-- 	local data_to_send = {
+	-- 		x = go.get_position().x,
+	-- 		y = go.get_position().y
+	-- 	}
+	-- 	msg.post("/player-island#main", "town",data_to_send)
+	-- end
 end
 
 function on_input(self, action_id, action)
 	local bp=go.get("/player-island#main", "bp")
 	-- print(bp)
-	local object_width = 50 -- Replace with the actual width of your game object
-	local object_height = 50
+	local object_width = 70 -- Replace with the actual width of your game object
+	local object_height = 70
 	local object_x = go.get_position().x+640-object_width/2
 	local object_y = go.get_position().y+360-object_height/2
 
@@ -22,25 +42,41 @@ function on_input(self, action_id, action)
 		-- print(object_x+ object_width,object_y+ object_width)
 		if mouse_x >= object_x and mouse_x <= object_x + object_width
 		and mouse_y >= object_y and mouse_y <= object_y + object_height then
-			if bp>=10 then
+			local message = {
+				x = go.get_position().x,
+				y = go.get_position().y
+			}
+			msg.post("/player-island#main", "flip_player",message)
+			if self.flip==0 then
+				msg.post("/warning#BP", "adj")
+			end
+			-- if bp<10 then
+			-- 	msg.post("/warning#BP", "weak")
+			-- end
+			
+			if bp>=10 and self.flip==1 then
 				if self.curAnim~="REVEAL3" and self.curAnim~="CULTIVATE" then
 
 					self.curAnim="REVEAL3"
 					go.set("/player-island#main", "bp",bp-10)
 					go.set("/player-island#main", "flipped",go.get("/player-island#main", "flipped")+1)
+					msg.post("/player-island#main", "add", message)
+					
 					msg.post("#sprite","play_animation", {id=hash("REVEAL3")})
+					msg.post("/player-island#main", "unpolluted")
 					msg.post("/score#score", "update_score", { score =  bp-10})
 					msg.post("/warning#BP", "update_cultivate")
-					if go.get("/player-island#main", "flipped")==27 then
-						msg.post("/warning#BP", "finish")
+					if go.get("/player-island#main", "flipped")==38 then
+						msg.post("/player-island#main", "win")
 					end
 				elseif self.curAnim=="CULTIVATE" then
 					msg.post("#sprite","play_animation", {id=hash("CULTIVATE")})
 				else	
 					msg.post("#sprite","play_animation", {id=hash("UNCHANGE3")})
+					msg.post("/warning#BP", "update_cultivate")
 				end
 			else
-				msg.post("/warning#BP", "weak")
+				-- msg.post("/warning#BP", "weak")
 			end
 		end
 	end

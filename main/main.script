@@ -2,19 +2,172 @@ go.property("bp", 5)
 go.property("cultivate", 0)
 go.property("turn_counter", 1)
 go.property("flipped", 0)
+go.property("flip", 0)
+go.property("sand", 3)
+go.property("sand1", 3)
+go.property("beach", 5)
+go.property("forest", 7)
+go.property("beach1", 5)
+go.property("forest1", 7)
+go.property("factory", 12)
+local flipped_area = {}
+local game_object_info = {}
+local town = {}
+local adjcent={}
+-- local jsonEncodedArray = json.encode(flipped_area)
+-- go.property("flipped_area", jsonEncodedArray)
 function init(self)
-	--self.bp=5
-	-- self.bp=require("constant")
-	-- print(self.bp)
-	-- print(go.get(hash("bp")))
+	sound.play("backgroundsound#sound", {delay = 1, gain = 0.5, pan = -1.0, speed = 1.25})
 	collectionfactory.create("/player-island#collectionfactory")
 	msg.post("/score#score", "update_score", { score =  5})
+	msg.post("/score#score", "update_score", { score =  5})
+	local startP=0
+	msg.post("/strength#beach", "beach_strength", { str=go.get("/player-island#main", "beach")})
+	msg.post("/strength#forest", "forest_strength", { str=go.get("/player-island#main", "forest")})
+	msg.post("/strength#factory", "factory_strength", { str=go.get("/player-island#main", "factory")})
+	msg.post("/strength#beach1", "beach_strength1", { str=go.get("/player-island#main", "beach1")})
+	msg.post("/strength#forest1", "forest_strength1", { str=go.get("/player-island#main", "forest1")})
+	msg.post("/strength#sand", "sand_strength", { str=go.get("/player-island#main", "sand")})
+	msg.post("/strength#sand1", "sand1_strength", { str=go.get("/player-island#main", "sand1")})
 end
 
 function on_message(self, message_id, message, sender)
+	if message_id == hash("updateDict") then
+		game_object_info[sender] = {
+			x = message.x,
+			y = message.y,
+			url = sender -- Storing the URL of the game object
+			
+		}
+	end
+	if message_id == hash("town") then
+		town[sender] = {
+			x = message.x,
+			y = message.y,
+			url = sender -- Storing the URL of the game object
+			}
+	end
+	if message_id == hash("findpollution") then
+		startP=1
+		for id, info in pairs(town) do
+			adjcent[info.url] = {}
+			-- i=0
+			for id1, info1 in pairs(game_object_info) do
+				if id ~= id1 then
+					-- i=i+1
+					-- print(i)
+					
+					local dx =  info.x - info1.x
+					local dy = info.y - info1.y
+					local distance = math.sqrt(dx * dx + dy * dy)
+					-- Check if the distance is smaller than the maximum distance
+					if distance < 80 then
+						-- print(distance)
+						-- print("NOOOOOOO")
+						table.insert(adjcent[info.url], id1)
+						-- print(id1)
+						msg.post(id1,"polluted")
+					end
+				end
+			end
+			if adjcent[info.url] then
+				print("DOOOOOOO")
+			end
+		end
+	end
+
+	if message_id == hash("unpolluted") then
+		-- print(sender)
+		-- print(adjcent[sender])
+		-- for _, adjacentId in ipairs(adjcent[sender]) do
+		-- 	print(adjacentId)
+		-- 	msg.post(adjacentId, "unpolluted")
+		-- end
+		for id, info in pairs(town) do
+			if id == sender then
+				for id1, info1 in pairs(game_object_info) do
+					if id ~= id1 then
+					-- i=i+1
+					-- print(i)
+
+						local dx =  info.x - info1.x
+						local dy = info.y - info1.y
+						local distance = math.sqrt(dx * dx + dy * dy)
+					-- Check if the distance is smaller than the maximum distance
+						if distance < 80 then
+							msg.post(id1,"unpolluted")
+						end
+					end
+				end
+			end
+		end
+	end
+	
 	if message_id == hash("update_shared_value") then
 		-- Update the shared value
 		self.bp = message.new_value
+	end
+	
+	if message_id == hash("add") then
+		local point1 = {x = message.x, y = message.y}
+
+		table.insert(flipped_area, point1)
+	end
+
+-- 	if message_id == hash("pollutionS") then
+-- 		go.set("/player-island#main", "sand1",message.str)
+-- 		-- print("strbeach",message.str)
+-- 		msg.post("/strength#sand1", "sand_strength1", { str=go.get("/player-island#main", "sand1")})
+-- 
+-- 	end
+-- 
+-- 	if message_id == hash("pollutionB") then
+-- 		go.set("/player-island#main", "beach1",message.str)
+-- 		-- print("strbeach",message.str)
+-- 		msg.post("/strength#beach1", "beach_strength1", { str=go.get("/player-island#main", "beach1")})
+-- 		
+-- 	end
+-- 	if message_id == hash("pollutionF") then
+-- 		go.set("/player-island#main", "forest1", message.str)
+-- 		msg.post("/strength#forest1", "forest_strength1", { str=go.get("/player-island#main", "forest1")})
+-- 
+-- 	end
+
+	if message_id == hash("new") then
+		msg.post("/strength#sand1", "sand1_strength", { str=go.get("/player-island#main", "sand")+message.turn})
+		msg.post("/strength#forest1", "forest_strength1", { str=go.get("/player-island#main", "forest")+message.turn})
+		msg.post("/strength#beach1", "beach_strength1", { str=go.get("/player-island#main", "beach")+message.turn})
+	end
+	
+
+	if message_id == hash("win") then
+		msg.post("loader:/go#loader", "end_win")
+	end
+	if message_id == hash("lose") then
+		msg.post("loader:/go#loader", "end_lose")
+	end
+	
+	if message_id == hash("flip_player") then
+		go.property("flip", 0)
+		local x = message.x
+		local y = message.y
+		if(#flipped_area==0) then
+			msg.post(sender, "flip", { flip = 1 })
+		else
+			for i, point in ipairs(flipped_area) do
+				local dx = point.x - message.x
+				local dy = point.y - message.y
+				local distance = math.sqrt(dx * dx + dy * dy)
+
+			-- Check if the distance is smaller than the maximum distance
+				if distance < 80 then
+					msg.post(sender, "flip", { flip = 1 })
+					go.property("flip", 1)
+					
+					break  -- Exit the loop
+				end
+			end
+		end
 	end
 end
 
